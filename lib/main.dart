@@ -141,7 +141,7 @@ class MyApp extends StatelessWidget {
                           Text(
                             'Writing',
                             style: textStyle.copyWith(
-                              color: Colors.white,
+                              color: Colors.red,
                             ),
                           ),
                         ],
