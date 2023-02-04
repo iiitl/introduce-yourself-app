@@ -39,10 +39,10 @@ class MyApp extends StatelessWidget {
           child: Container(
             decoration: const BoxDecoration(
               image: DecorationImage(
-                image: AssetImage(
-                  'assets/background_image.jpeg',
-                ),
-              ),
+                  image: AssetImage(
+                    'assets/background_image.jpeg',
+                  ),
+                  fit: BoxFit.cover),
             ),
             child: Center(
               child: Column(
