@@ -179,13 +179,6 @@ class MyApp extends StatelessWidget {
                         color: Colors.white,
                         fontWeight: FontWeight.bold,
                         fontSize: 20,
-                        shadows: [
-                          Shadow(
-                            color: Colors.blue,
-                            blurRadius: 1,
-                            offset: Offset.fromDirection(1, 2.5),
-                          ),
-                        ],
                       ),
                     ),
                   )
