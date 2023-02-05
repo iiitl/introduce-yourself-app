@@ -56,7 +56,7 @@ class MyApp extends StatelessWidget {
                       backgroundImage: AssetImage(
                         'assets/circle_avatar.jpeg',
                       ),
-                      radius: 30,
+                      radius: 70,
                     ),
                   ),
                   Padding(
