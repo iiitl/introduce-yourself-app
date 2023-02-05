@@ -70,12 +70,11 @@ class MyApp extends StatelessWidget {
                         border: Border.all(
                           color: Colors.white,
                           width: 3,
-                          style: BorderStyle.none,
                         ),
                       ),
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.spaceAround,
-                        children: const [
+                        children: [
                           Text(
                             'Name',
                             style: textStyle,
