@@ -67,6 +67,7 @@ class MyApp extends StatelessWidget {
                       width: 300,
                       height: 50,
                       decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(20),
                         border: Border.all(
                           color: Colors.white,
                           width: 3,
@@ -96,6 +97,7 @@ class MyApp extends StatelessWidget {
                       width: 300,
                       height: 50,
                       decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(20),
                         border: Border.all(
                           color: Colors.white,
                           width: 3,
@@ -125,6 +127,7 @@ class MyApp extends StatelessWidget {
                       width: 300,
                       height: 50,
                       decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(20),
                         border: Border.all(
                           color: Colors.white,
                           width: 3,
@@ -153,7 +156,8 @@ class MyApp extends StatelessWidget {
                     child: Container(
                       width: 300,
                       height: 50,
-                      decoration: const BoxDecoration(
+                      decoration:  BoxDecoration(
+                        borderRadius: BorderRadius.circular(20),
                         color: Colors.white,
                       ),
                       child: const Center(
