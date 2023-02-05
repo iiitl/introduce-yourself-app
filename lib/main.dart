@@ -102,7 +102,7 @@ class MyApp extends StatelessWidget {
                         ),
                       ),
                       child: Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        mainAxisAlignment: MainAxisAlignment.spaceAround,
                         children: const [
                           Text(
                             'Roll No.',
