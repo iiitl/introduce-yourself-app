@@ -70,7 +70,6 @@ class MyApp extends StatelessWidget {
                         border: Border.all(
                           color: Colors.white,
                           width: 3,
-                          style: BorderStyle.none,
                         ),
                       ),
                       child: Row(
