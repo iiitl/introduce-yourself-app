@@ -37,7 +37,7 @@ class MyApp extends StatelessWidget {
         floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
         body: SafeArea(
           child: Container(
-            decoration: const BoxDecoration(
+            decoration: BoxDecoration(
               image: DecorationImage(
                   image: AssetImage(
                     'assets/background_image.jpeg',
@@ -46,43 +46,42 @@ class MyApp extends StatelessWidget {
             ),
             child: Center(
               child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   const Padding(
                     padding: EdgeInsets.only(
-                      top: 60,
+                      top: 60
                     ),
                     child: CircleAvatar(
                       backgroundImage: AssetImage(
                         'assets/circle_avatar.jpeg',
                       ),
-                      radius: 30,
+                      radius: 70,
                     ),
                   ),
                   Padding(
                     padding: const EdgeInsets.only(
-                      top: 60,
+                      top: 45,
                     ),
                     child: Container(
-                      width: 300,
-                      height: 50,
+                      width: 350,
+                      height: 60,
                       decoration: BoxDecoration(
                         border: Border.all(
                           color: Colors.white,
                           width: 3,
-                          style: BorderStyle.none,
                         ),
                       ),
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.spaceAround,
-                        children: const [
+                        children: [
                           Text(
                             'Name',
                             style: textStyle,
                           ),
-                          Text('--', style: textStyle),
+                          Text('--',
+                              style: textStyle),
                           Text(
-                            'Mr. No Face',
+                            'Mr No Name',
                             style: textStyle,
                           ),
                         ],
@@ -90,12 +89,10 @@ class MyApp extends StatelessWidget {
                     ),
                   ),
                   Padding(
-                    padding: const EdgeInsets.only(
-                      top: 30,
-                    ),
+                    padding: const EdgeInsets.only(top: 40),
                     child: Container(
-                      width: 300,
-                      height: 50,
+                      width: 350,
+                      height: 60,
                       decoration: BoxDecoration(
                         border: Border.all(
                           color: Colors.white,
@@ -103,13 +100,14 @@ class MyApp extends StatelessWidget {
                         ),
                       ),
                       child: Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                        children: const [
+                        mainAxisAlignment: MainAxisAlignment.spaceAround,
+                        children: [
                           Text(
                             'Roll No.',
                             style: textStyle,
                           ),
-                          Text('--', style: textStyle),
+                          Text('--',
+                              style: textStyle),
                           Text(
                             'LCS2023001',
                             style: textStyle,
@@ -120,11 +118,11 @@ class MyApp extends StatelessWidget {
                   ),
                   Padding(
                     padding: const EdgeInsets.only(
-                      top: 30,
+                      top: 40,
                     ),
                     child: Container(
-                      width: 300,
-                      height: 50,
+                      width: 350,
+                      height: 60,
                       decoration: BoxDecoration(
                         border: Border.all(
                           color: Colors.white,
@@ -150,19 +148,19 @@ class MyApp extends StatelessWidget {
                     ),
                   ),
                   Padding(
-                    padding: const EdgeInsets.only(top: 60),
+                    padding: const EdgeInsets.only(top: 55),
                     child: Container(
-                      width: 300,
-                      height: 50,
+                      width: 350,
+                      height: 60,
                       decoration: const BoxDecoration(
-                        color: Colors.white,
+                        color: Colors.amberAccent,
                       ),
-                      child: const Center(
+                      child:  Center(
                         child: Text(
                           'Passionate',
                           style: TextStyle(
                             color: Colors.black,
-                            fontSize: 20,
+                            fontSize: 35,
                             fontWeight: FontWeight.bold,
                           ),
                         ),
@@ -171,14 +169,14 @@ class MyApp extends StatelessWidget {
                   ),
                   Padding(
                     padding: const EdgeInsets.only(
-                      top: 50,
+                      top: 30,
                     ),
                     child: Text(
                       'Flutter ❤️',
                       style: TextStyle(
                         color: Colors.white,
                         fontWeight: FontWeight.bold,
-                        fontSize: 20,
+                        fontSize: 25,
                         shadows: [
                           Shadow(
                             color: Colors.blue,
