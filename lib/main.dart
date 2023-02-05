@@ -25,16 +25,7 @@ class MyApp extends StatelessWidget {
           centerTitle: true,
           backgroundColor: Colors.black54,
         ),
-        floatingActionButton: FloatingActionButton(
-          onPressed: () {},
-          backgroundColor: Colors.white,
-          child: const Icon(
-            Icons.dangerous_outlined,
-            size: 30,
-            color: Colors.black,
-          ),
-        ),
-        floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
+        
         body: SafeArea(
           child: Container(
             decoration: const BoxDecoration(
