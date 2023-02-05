@@ -80,6 +80,9 @@ flutter:
       fonts:
         - asset: fonts/SourceSansPro-Bold.ttf
         - asset: fonts/SourceSansPro-Regular.ttf
+    -  family: Bien dans mon
+       fonts:
+         - asset: fonts/Bien dans mon Slip.ttf
   #
   #
   # For details regarding fonts from package dependencies,
