@@ -24,3 +24,29 @@ $ Run the following command on the terminal:- "flutter pub get".
 $ Select the device where you want to run this project.
 $ Run the project.
 ```
+## General Info
+
+This application basically tells about the owner, basically the medium to contact you own
+
+## Technologies used
+
+Technologies used to build this app is flutter which designs the app for all major operataing systems. It uses the the language dart which is interconvertible into all the languages like kotlin etc.
+
+## Features 
+
+If we talk about the features of flutter, then they are uncountable, but for the sake of completion it reduces the human effort by providing the single platform to create apps for variety of operating system in the single time
+If we talk about the app it is the nice way to start with the journey of learning flutter
+
+## Screenshots
+Generally the readme.md file does not contain the apps screenshots that's why they are not here
+Suerly they will be in the comments
+
+## Setup 
+To run the app
+When you are developing the app you need an emulator to run or test the app it may be your mobile device of the system generated emulator
+
+To design the app
+You must need the platform like android studio to design it
+
+## Usage
+If we talk about the app it provides the nice way to start the journey
